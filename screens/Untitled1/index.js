@@ -166,14 +166,14 @@ const styles = StyleSheet.create({
     color: "#777777"
   },
   koXOXDcr: {
-    height: 561,
+    height: 557,
     width: 338,
     backgroundColor: "#131313",
     borderRadius: 0,
     color: "#777777",
     position: "absolute",
-    left: -1.5,
-    top: -1.5,
+    left: -1,
+    top: -1,
     opacity: 0.5
   },
   IauLayBG: {
@@ -220,8 +220,8 @@ const styles = StyleSheet.create({
     width: 306,
     height: 52,
     position: "absolute",
-    left: 15,
-    top: 112
+    left: 10,
+    top: 114
   },
   jvQYVKrs: {
     height: 50,
@@ -243,7 +243,8 @@ const styles = StyleSheet.create({
     position: "absolute",
     left: 3,
     top: 17,
-    color: "#229400"
+    color: "#000000",
+    fontWeight: "700"
   }
 });
 export default Untitled1;
