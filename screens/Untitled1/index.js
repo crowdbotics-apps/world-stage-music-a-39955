@@ -169,12 +169,14 @@ const styles = StyleSheet.create({
     height: 557,
     width: 338,
     backgroundColor: "#131313",
-    borderRadius: 0,
+    borderRadius: 10,
     color: "#777777",
     position: "absolute",
     left: -1,
     top: -1,
-    opacity: 0.5
+    opacity: 0.5,
+    borderColor: "#e6c74e",
+    borderWidth: 6
   },
   IauLayBG: {
     width: 308,
