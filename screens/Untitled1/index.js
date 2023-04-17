@@ -13,7 +13,7 @@ const Untitled1 = () => {
       padding: 10,
       position: 'relative',
       flex: 1
-    }}><ImageBackground style={styles.NyPZapvO} source={require("./pexels-brett-sayles-4001269.jpg")} resizeMode="cover"><View style={styles.koXOXDcr}><Text style={styles.IauLayBG}>World Stage Music is a platform dedicated to empowering every GENRE of music. It starts with Fans/Artists and Producers like you to form collaborative efforts to implement growth and success in the underground music industry.  This APP will allow you to do just that. Climb your way through the rankings to become a certified WSM ARTIST/PRODUCER.  Promote your uploaded music to climb your way to the top of the charts. Participate in contests, earn rewards, empower your genre. If this sounds like you…Please click the GET STARTED button below to launch your new career as a World Stage Music artist / producer / fan. </Text><Text style={styles.lPgSjtLT}>Rock, Country,Hip-Hop, Rap, R&B, Reggae, Punk, Comedy and MUCH MUCH MORE!</Text><ImageBackground style={styles.OBngVftl} source={require("./musicnotes.png")} resizeMode="cover"><ImageBackground style={styles.aTKFfskr} source={require("./all1.png")} resizeMode="cover"></ImageBackground></ImageBackground><Pressable onPress={() => {
+    }}><ImageBackground style={styles.NyPZapvO} source={require("./pexels-brett-sayles-4001269.jpg")} resizeMode="cover"><View style={styles.koXOXDcr}><ImageBackground style={styles.OBngVftl} source={require("./musicnotes.png")} resizeMode="cover"><ImageBackground style={styles.aTKFfskr} source={require("./all1.png")} resizeMode="cover"></ImageBackground></ImageBackground><Pressable onPress={() => {
             navigation.navigate("Untitled2");
           }}><View style={styles.jvQYVKrs}><Text style={styles.SfMRBMOL}>GET STARTED</Text></View></Pressable></View></ImageBackground><View style={styles.WFcncjgj}></View></ScrollView>
     </SafeAreaView>;
@@ -189,7 +189,8 @@ const styles = StyleSheet.create({
     position: "absolute",
     left: 15,
     top: 46,
-    fontWeight: "700"
+    fontWeight: "700",
+    opacity: 1
   },
   lPgSjtLT: {
     width: 283,
@@ -239,14 +240,22 @@ const styles = StyleSheet.create({
     width: 232,
     height: 50,
     lineHeight: 14,
-    fontSize: 20,
+    fontSize: 24,
     borderRadius: 0,
     textAlign: "center",
     position: "absolute",
-    left: 3,
-    top: 17,
+    left: 2,
+    top: 13,
     color: "#000000",
-    fontWeight: "700"
+    fontWeight: "900",
+    fontFamily: "Roboto"
+  },
+  MyTrKVib: {
+    width: 100,
+    height: 50,
+    lineHeight: 14,
+    fontSize: 14,
+    borderRadius: 0
   }
 });
 export default Untitled1;

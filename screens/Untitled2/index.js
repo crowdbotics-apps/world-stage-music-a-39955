@@ -11,8 +11,8 @@ const Untitled2 = () => {
       padding: 10,
       position: 'relative',
       flex: 1
-    }}><View style={styles.tWOjLdCg}><ImageBackground style={styles.OTsSlGcj} source={require("./loginwsm.png")} resizeMode="cover"></ImageBackground><CheckBox style={styles.JdiaxtPN} title="Remember me" size={16}></CheckBox><View style={styles.nifyCQXr}></View><Text style={styles.fOqkEFzB}>Username/Email</Text><Text style={styles.SyqawwLn}>Password:</Text></View></ScrollView>
-    <View style={styles.ZtOYroPz}></View></SafeAreaView>;
+    }}><View style={styles.tWOjLdCg}><ImageBackground style={styles.OTsSlGcj} source={require("./loginwsm.png")} resizeMode="cover"></ImageBackground><CheckBox style={styles.JdiaxtPN} title="Remember me" size={16}></CheckBox><View style={styles.nifyCQXr}></View><Text style={styles.fOqkEFzB}>Username/Email</Text><Text style={styles.SyqawwLn}>Password:</Text><View style={styles.hYGsfyDa}></View></View></ScrollView>
+    <View style={styles.ZtOYroPz}></View><View style={styles.lLmhuuDR}></View><View style={styles.gqujvaWB}></View></SafeAreaView>;
 };
 
 const styles = StyleSheet.create({
@@ -188,7 +188,7 @@ const styles = StyleSheet.create({
   },
   ZtOYroPz: {
     height: 33,
-    width: 233,
+    width: 234,
     backgroundColor: "#E4E4E4",
     borderRadius: 11,
     color: "#777777",
@@ -222,6 +222,46 @@ const styles = StyleSheet.create({
     position: "absolute",
     left: 84,
     top: 503
+  },
+  OitJwVLf: {
+    width: 107,
+    height: 62,
+    position: "absolute",
+    left: 126,
+    top: 233
+  },
+  hYGsfyDa: {
+    height: 55,
+    width: 55,
+    backgroundColor: "#E4E4E4",
+    borderRadius: 10,
+    color: "#777777",
+    position: "absolute",
+    left: 52,
+    top: 249,
+    borderWidth: 2
+  },
+  lLmhuuDR: {
+    height: 55,
+    width: 55,
+    backgroundColor: "#E4E4E4",
+    borderRadius: 10,
+    color: "#777777",
+    position: "absolute",
+    left: 150.5,
+    top: 257,
+    borderWidth: 2
+  },
+  gqujvaWB: {
+    height: 55,
+    width: 55,
+    backgroundColor: "#E4E4E4",
+    borderRadius: 10,
+    color: "#777777",
+    position: "absolute",
+    left: 242,
+    top: 257,
+    borderWidth: 2
   }
 });
 export default Untitled2;
